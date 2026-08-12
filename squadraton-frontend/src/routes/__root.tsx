@@ -36,7 +36,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
       <head>
         <HeadContent />
       </head>
-      <body>
+      <body className="bg-gray-100 min-h-screen flex flex-col">
         <Header />
         {children}
         <Footer />
