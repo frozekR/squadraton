@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Hero 1",
+    "description": "This is the first hero.",
+    "role": "role",
+    "skills": ["Passive", "Skill 1", "Skill 2", "Skill 3", "Ult", "Transformation"],
+    "skillsDescription": [
+      "Passive description",
+      "Skill 1 description",
+      "Skill 2 description",
+      "Skill 3 description",
+      "Ult description",
+      "Transformation description"
+    ]
+  }
+]

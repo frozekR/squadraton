@@ -2,10 +2,30 @@ import { createFileRoute } from '@tanstack/react-router'
 import HeroList from '#/components/HeroList'
 
 export const Route = createFileRoute('/hero/')({
-  component: RouteComponent,
+    head: () => ({
+    meta: [
+      {
+        charSet: 'utf-8',
+      },
+      {
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1',
+      },
+      {
+        title: 'Heroes',
+      },
+    ],
+    links: [
+      {
+        rel: 'stylesheet',
+        href: '/styles.css',
+      },
+    ],
+  }),
+  component: HeroListComponent,
 })
 
-function RouteComponent() {
+function HeroListComponent() {
   return (
   <section className="p-8">
     <div>

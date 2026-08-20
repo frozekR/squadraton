@@ -1,3 +1,5 @@
+/* ну пока условный мок */
+
 type Hero = {
   id: number
   name: string
