@@ -14,7 +14,6 @@ CREATE TABLE IF NOT EXISTS characters (
     updated_at TIMESTAMP DEFAULT now()
 );
 
--- Таблица скиллов
 CREATE TABLE IF NOT EXISTS skills (
     id BIGSERIAL PRIMARY KEY,
     uuid UUID UNIQUE NOT NULL,
