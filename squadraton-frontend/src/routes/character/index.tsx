@@ -1,7 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router'
-import HeroList from '#/components/HeroList'
+import HeroList from '#/components/CharacterList'
 
-export const Route = createFileRoute('/hero/')({
+export const Route = createFileRoute('/character/')({
     head: () => ({
     meta: [
       {
